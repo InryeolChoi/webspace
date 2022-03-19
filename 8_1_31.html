@@ -1,0 +1,46 @@
+<style>
+    .first{
+        display:inline;
+    }
+    .second{
+        display:block;
+    }
+    .myGrid{
+        display:grid;
+    }
+    .myGrid_2{
+        display:grid; 
+        grid-template-columns: 1fr 1fr;
+    }
+    .myGrid_3{
+        display:grid; 
+        grid-template-rows: 1fr 3fr;
+    }
+    #first{background-color: yellow;}
+    #second{background-color: aqua;}
+
+</style>
+
+<img class=".first" src="image/profile.jpg" height=100px/>
+<img src="image/profile.jpg" height=100px>
+
+<hr/>
+
+<img class=".second" src="image/profile.jpg" height=100px/>
+<img src="image/profile.jpg" height=100px/>
+
+<hr/>
+<div class="myGrid">
+    <div id="first">1번 영역</div>
+    <div id="second">2번 영역</div>
+</div>
+<br/>
+<div class="myGrid_2">
+    <div id="first">1번 영역</div>
+    <div id="second">2번 영역</div>
+</div>
+<br/>
+<div class="myGrid_3">
+    <div id="first">1번 영역</div>
+    <div id="second">2번 영역</div>
+</div>
